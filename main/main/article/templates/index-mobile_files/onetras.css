@@ -1,0 +1,78 @@
+.cmp-app_gdpr {font-family: Helvetica Neue,arial,sans-serif !important;position: relative; z-index: 214748364;text-align:left; color: #000;}
+.cmp-app_gdpr * {height: auto;}
+.cmp-app_gdpr .cmp-popup_overlay{background:rgba(0,0,0,.6);}
+.cmp-app_gdpr .cmp-popup_content a {color:#000; text-decoration:none;font-weight: bold}
+.cmp-app_gdpr .cmp-popup_content a {
+    background: linear-gradient(to right,#f9b700,#f9b700);
+    background-position: 0 17px;
+    background-repeat: repeat-x;
+    background-size: 5px 5px;
+    color: #000;}
+.cmp-app_gdpr .cmp-popup_content .cmp-closebutton_closeButton.cmp-closebutton_hasBorder{box-shadow: 0 0 0 1px #ccc;fill: #ccc;top: 20px;right: 10px; width: 20px; height: 20px;}
+.cmp-app_gdpr .cmp-popup_content .cmp-closebutton_closeButton.cmp-closebutton_hasBorder svg { width: 20px !important; height: 20px  !important;}
+
+.cmp-app_gdpr .cmp-popup_content div.cmp-intro_intro {display: block; padding: 0 6% !important; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; -moz-font-smoothing: grayscale;}
+.cmp-app_gdpr .cmp-popup_content div.cmp-intro_intro .cmp-intro_title {text-align: left;font-size:24px; line-height:28px; padding: 10px 0 0px;}
+.cmp-app_gdpr .cmp-popup_content div.cmp-intro_intro .cmp-intro_title::before {content:"";display:block; margin-bottom: 20px; background-image:url(https://ocdn.eu/aops/plansza/css/onetras.png);background-repeat: no-repeat; width: 90px;    height: 40px;}
+
+.cmp-app_gdpr .cmp-popup_content button.cmp-button_button, input[type=button].cmp-button_button {background:#f9b700; color:#000; border: 2px solid #f9b700 }
+.cmp-app_gdpr .cmp-popup_content button.cmp-button_button.cmp-button_invert, input[type=button].cmp-button_button.cmp-button_invert {font-weight: normal;background:#fff}
+
+.cmp-app_gdpr .cmp-popup_content button.cmp-button_button:hover, input[type=button].cmp-button_button:hover {border: 2px solid #000; color:#000}
+.cmp-app_gdpr .cmp-purposes_purposes .cmp-purposes_purposeList {max-width: 210px}
+
+
+    
+.cmp-app_gdpr .cmp-popup_content .cmp-purposes_purposes .cmp-purposes_purposeDetail .cmp-purposes_active {color: #f9b700;}
+.cmp-app_gdpr .cmp-popup_content .cmp-switch_switch.cmp-switch_isSelected .cmp-switch_visualizationContainer {background-color: #f9b700;}
+.cmp-app_gdpr .cmp-popup_content .cmp-purposes_purposes .cmp-purposes_purposeDetail .cmp-purposes_title {font-size:17px}
+.cmp-app_gdpr .cmp-popup_content .cmp-purposes_purposes .cmp-purposes_purposeItem.cmp-purposes_selectedPurpose {border-right: 7px solid #f9b700; padding-right: 3px;}
+
+
+.cmp-app_gdpr .cmp-footer_footer { border-top: 2px solid #f9b700; padding: 10px 30px 10px 10px;}
+.cmp-app_gdpr .cmp-footer_footer a {color:#000; text-decoration: underline}
+.cmp-app_gdpr .cmp-footer_footer .cmp-closebutton_closeButton {fill: #000;}
+.cmp-app_gdpr .cmp-intro_intro .cmp-intro_description {font-family: Helvetica Neue,arial,sans-serif !important; height:270px;overflow: auto;font-size: 16px;line-height: 22px; text-align: left;-webkit-overflow-scrolling: touch;}
+.cmp-app_gdpr .cmp-intro_intro .cmp-intro_description p {font-family: Helvetica Neue,arial,sans-serif !important; font-size: 16px;line-height: 22px;}
+.cmp-switch_switch .cmp-switch_visualizationGlow {background-color:#f9b700 !important}
+div.cmp-vendors_vendors table tr td:last-child, div.cmp-vendors_vendors table tr th:last-child {padding-right: 4px !important;}
+
+@media screen and (max-width: 768px) {
+    .cmp-app_gdpr {font-size: 13px !important;}
+    .cmp-app_gdpr .cmp-popup_popup {align-items: flex-end;}
+    .cmp-app_gdpr .cmp-popup_content {width: 100%; height: auto; display: block; max-height: 100%;}
+    .cmp-app_gdpr .cmp-popup_content div.cmp-intro_intro {display: block; padding: 0 !important;}
+    .cmp-app_gdpr .cmp-popup_content div.cmp-intro_intro .cmp-intro_title {font-size:18px; line-height:26px; padding:20px 4% 0}
+    .cmp-app_gdpr .cmp-intro_intro {padding: 0; font-size: 13px; padding-bottom: 50px;}
+    div.cmp-intro_intro .cmp-intro_options {display:block !important; padding: 0 10px !important;background:#fff}
+    div.cmp-intro_intro .cmp-intro_options button {width: 100%;display: block; margin: 15px 0;}
+    .cmp-app_gdpr .cmp-intro_intro .cmp-intro_description {height: 40vh;padding: 0 4%;text-align: left;}
+    .cmp-purposes_purposes {display:block !important;}
+    .cmp-purposes_purposes .cmp-purposes_purposeList {display:flex !important; max-width: none !important;}
+    .cmp-details_footer {background: #fff !important}
+    .cmp-purposes_purposeDetail {overflow: scroll;height:47vh;}
+    .cmp-details_details .cmp-details_footer {z-index: 214748364}
+    #pageHeader {z-index: 500 !important}
+    .cmp-app_gdpr .cmp-intro_intro .cmp-intro_description, .cmp-app_gdpr .cmp-intro_intro .cmp-intro_description p {font-size: 14px;line-height: 18px;}
+    .cmp-details_body {max-height: 60vh;}
+    .cmp-app_gdpr .cmp-popup_content .cmp-purposes_purposes .cmp-purposes_purposeDetail .cmp-purposes_title {font-size: 15px;line-height: 18px;}
+}
+@media screen and (min-width: 500px) and (max-width: 768px) and (max-height: 768px) {
+    div.cmp-intro_intro .cmp-intro_options {display:flex !important}
+    div.cmp-intro_intro .cmp-intro_options button {margin:5px}
+    div.cmp-intro_intro .cmp-intro_description {margin:2% 0 !important}
+    .cmp-app_gdpr .cmp-intro_intro .cmp-intro_description {height: 17vh;}
+}
+
+
+body.cmp {overflow:hidden !important}
+.cmp-app_gdpr .cmp-vendors_vendors {overflow-x: initial;}
+.cmp-app_gdpr .cmp-vendors_description span {display:block; margin-bottom: 20px}
+.cmp-app_gdpr .cmp-vendors_description a {text-decoration:underline}
+.cmp-app_gdpr .cmp-details_cancel {background:none !important}
+.cmp-app_gdpr .cmp-purposes_purposes .cmp-purposes_vendorLink {font-size:16px;display:inline-block}
+.cmp-app_gdpr .cmp-purposes_purposes .cmp-purposes_purposeDetail .cmp-purposes_body {margin: 3% 0;}
+.cmp-app_gdpr .cmp-popup_content .cmp-purposes_purposes .cmp-purposes_purposeDetail .cmp-purposes_active {margin-top: 3%;}
+.cmp-app_gdpr .cmp-purposes_purposes .cmp-purposes_purposeItem {background:#fff}
+.cmp-app_gdpr .cmp-intro_intro .cmp-intro_description, .cmp-purposes_purposeDetail, .cmp-details_body  {-webkit-overflow-scrolling: touch;}
+.cmp-app_gdpr .cmp-vendors_vendors { max-height: 360px;}
